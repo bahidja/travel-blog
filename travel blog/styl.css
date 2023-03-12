@@ -1,0 +1,295 @@
+body{
+    
+   box-sizing: border-box;
+   width: 100%;
+    background-color: rgb(255, 254, 254);
+    
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior: smooth;
+   
+    font-family: fantasy;
+}
+header{
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    position: fixed;
+    align-items: center;
+    display: flex;
+    
+   
+    justify-content: space-around;
+    z-index: 9;
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.009);
+
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.243);
+backdrop-filter: blur(4px);
+-webkit-backdrop-filter: blur(20px);
+
+}
+p{
+    color: rgb(138, 138, 138);
+}
+.conteiner h1{
+    color: rgb(255, 254, 253);
+    padding-bottom: 2%;
+    font-size: 200%;
+
+}
+.conteiner h3{
+    color: #ddddddec;
+}
+h1{
+    color: rgba(4, 3, 57, 0.889);
+   font-weight: 700;
+   padding-bottom: 2%;
+}
+a{
+    text-decoration: none;
+    color: rgb(246, 247, 252);
+}
+a:hover{
+    color:rgba(173, 172, 224, 0.889)
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: calc(30px);
+}
+.sing-in a{
+  padding-right: 30px;
+}
+.conteiner .imge img{
+    height: 100%;
+    width: 100%;
+    opacity: 95%;
+    object-fit: cover;
+}
+.conteiner .imge{
+    height: 100%;
+    width: 100%;
+}
+.conteiner{
+    width: 100%;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.conteiner .text{
+    position: absolute;
+    width: 50%;
+    text-align: center;
+    
+}
+button{
+    color: rgba(255, 255, 255, 0.962);
+    background-color:rgb(2, 1, 36); ;
+    border: none;
+    border-radius: 30px;
+    height: 35px;
+    width: 120px;
+    transition: .2s;
+  margin-top: 5%;
+    font-weight: 600;
+    
+    
+}
+button:hover{
+    letter-spacing: 1px;
+   background-color: rgb(253, 253, 255);
+   color: rgb(2, 1, 36);;
+
+}
+
+section{
+    display: flex;
+   height: auto;
+    width: 100%;
+   
+    position: relative;
+    color: rgb(248, 248, 248);
+    flex-wrap: wrap;
+   
+}
+
+.imge-box.n1 {
+height: 400px;
+width: 330px;
+position: absolute;
+bottom: 67%;
+left: 10%;
+
+}
+.imge-box.n1 img {
+    object-fit: cover;
+    height: 110%;
+    width: 90%;
+    margin-left: 5%;
+}
+.sub-section.n1 .descreption-box{
+  width: 40%;
+  margin-left: 42% ;
+ text-align: left;
+ 
+
+}
+.sub-section{
+    width: 100%;
+    display: flex; 
+    height:60vh;
+    display: flex;
+    align-items: center;
+   
+
+   
+}
+.sub-section .imge{
+    width: 100%;
+  
+}
+.sub-section .imge img{
+object-fit: cover;
+height: 500px;
+width: 100%;
+}
+
+section button{
+    background-color: rgb(255, 254, 253);
+    border:solid 1.7px rgb(2, 1, 36) ;
+    color: #000;
+}
+section button{
+     color: rgba(255, 255, 255, 0.962);
+    background-color:rgb(2, 1, 36); ;
+}
+
+.sub-section .imge img{
+    height: 100%;
+    width: 100%;
+    
+    object-fit: cover;
+}
+.sub-section .imge{
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+.sub-section .text{
+    position: absolute;
+    width: 55%;
+    text-align: center;
+    height: 18%;
+}
+
+.imge-box-n2 {
+    height: 400px;
+    width: 330px;
+    position: absolute;
+    bottom: 0%;
+    right: 10%;
+
+    }
+
+
+    .imge-box-n2 img {
+        object-fit: cover;
+        height: 110%;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .sub-section.n2 .descreption-box{
+       margin-left: 10%;
+        width: 40%;
+    }
+
+   .first-sec :nth-child(3){
+        justify-content: center;
+    }
+
+
+    footer{
+        background-color: rgb(2, 1, 36);
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+        
+       
+    }
+    footer .box{
+        width: 70%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+       justify-content: center;
+    }
+
+    i{
+        color:aliceblue;
+        font-size: 140%;
+
+      }
+      .contct{
+       margin-left: 3%;
+        width: 21%;
+        display: flex;
+        justify-content: space-between;
+       
+      }
+
+      .search {
+        width: 100%;
+        position: relative;
+        display: flex;
+       
+      }
+      
+      .searchTerm {
+        width: 80%;
+        border: 3px solid #d3d5e5;
+        border-right: none;
+        padding: 5px;
+        height: 15px;
+        border-radius: 5px 0 0 5px;
+        outline: none;
+        color: #cbcccb;
+      }
+      
+      .searchTerm:focus{
+        color: #323a3b;
+      }
+      
+      .searchButton {
+        width: 35px;
+        height: 31px;
+        border: 1px solid #d4ddde;
+        background: #010332;
+        text-align: center;
+        color: #050228;
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+        font-size: 15px;
+        margin-top: 0%;
+        
+      }
+      
+      /*Resize the wrap to see the search bar change!*/
+      .wrap{
+        width: 30%;
+        position: absolute;
+        top: 37%;
+       right: 39%;
+        height: 50%;
+
+      }
